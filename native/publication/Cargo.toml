@@ -1,0 +1,14 @@
+[package]
+name = "bioart-publication"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+svg2pdf = "=0.13.0"
+serde_json = "=1.0.145"
+log = "0.4"
+ttf-parser = "0.25"
+
+[profile.release]
+strip = true
+lto = "thin"

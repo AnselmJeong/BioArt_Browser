@@ -1,0 +1,26 @@
+{
+  "name": "bioart-browser-desktop",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "BIOART_PROJECT_ROOT=$PWD electrobun dev",
+    "build": "./script/build_and_run.sh --build-only",
+    "build:dmg": "./script/build_dmg.sh",
+    "typecheck": "bun script/typecheck.ts",
+    "test": "bun test tests/desktop",
+    "start": "./script/build_and_run.sh",
+    "build:editor": "bun build src/editor/editor.ts --target browser --format esm --minify --outfile web/editor.js",
+    "test:editor": "bun test tests/editor"
+  },
+  "dependencies": {
+    "electrobun": "2.0.1",
+    "fabric": "7.4.0",
+    "mathjax-full": "3.2.2",
+    "paper": "0.12.18"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.8",
+    "typescript": "5.9.3"
+  }
+}

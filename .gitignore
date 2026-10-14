@@ -1,0 +1,27 @@
+BioArt_PNG_SVG/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+data/
+cache/
+state/
+projects/
+exports/
+dist/
+build/
+*.spec
+
+node_modules/
+.hutch/
+artifacts/
+
+# Rebuilt by bun run build:editor
+web/editor.js
+web/editor-validation.js
+web/editor-validation.html
+web/editor-samples.json
+
+# Rust publication helper build output
+native/publication/target/

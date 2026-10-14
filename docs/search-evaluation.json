@@ -1,0 +1,621 @@
+{
+  "machine": "macOS-27.2-arm64-arm-64bit",
+  "catalog_version": "8c22c599879ba61f-a751f486",
+  "query_count": 35,
+  "p95_ms": 1.249,
+  "mean_ms": 1.014,
+  "precision_at_10": null,
+  "recall_at_20": null,
+  "accuracy_note": "No human-reviewed relevance set yet; this measures baseline behavior and latency only.",
+  "results": [
+    {
+      "query": "Human Lungs",
+      "count": 120,
+      "top_ids": [
+        "231",
+        "38",
+        "49",
+        "54",
+        "63"
+      ],
+      "match_types": [
+        "exact",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 1.898
+    },
+    {
+      "query": "폐",
+      "count": 4,
+      "top_ids": [
+        "231",
+        "15",
+        "14",
+        "567"
+      ],
+      "match_types": [
+        "synonym",
+        "relation",
+        "relation",
+        "relation"
+      ],
+      "milliseconds": 0.871
+    },
+    {
+      "query": "lung",
+      "count": 6,
+      "top_ids": [
+        "231",
+        "15",
+        "14",
+        "567",
+        "519"
+      ],
+      "match_types": [
+        "exact",
+        "relation",
+        "relation",
+        "relation",
+        "exact"
+      ],
+      "milliseconds": 1.173
+    },
+    {
+      "query": "폐포",
+      "count": 4,
+      "top_ids": [
+        "15",
+        "14",
+        "567",
+        "231"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "relation"
+      ],
+      "milliseconds": 0.888
+    },
+    {
+      "query": "alveolus",
+      "count": 4,
+      "top_ids": [
+        "567",
+        "15",
+        "14",
+        "231"
+      ],
+      "match_types": [
+        "exact",
+        "synonym",
+        "synonym",
+        "relation"
+      ],
+      "milliseconds": 1.039
+    },
+    {
+      "query": "alveoli",
+      "count": 4,
+      "top_ids": [
+        "15",
+        "14",
+        "567",
+        "231"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "synonym",
+        "relation"
+      ],
+      "milliseconds": 0.958
+    },
+    {
+      "query": "산소가 혈액으로 이동하는 과정",
+      "count": 29,
+      "top_ids": [
+        "15",
+        "14",
+        "699",
+        "52",
+        "660"
+      ],
+      "match_types": [
+        "usage_suggestion",
+        "usage_suggestion",
+        "usage_suggestion",
+        "usage_suggestion",
+        "usage_suggestion"
+      ],
+      "milliseconds": 1.117
+    },
+    {
+      "query": "gas exchange",
+      "count": 29,
+      "top_ids": [
+        "15",
+        "14",
+        "699",
+        "52",
+        "660"
+      ],
+      "match_types": [
+        "usage_suggestion",
+        "usage_suggestion",
+        "usage_suggestion",
+        "usage_suggestion",
+        "usage_suggestion"
+      ],
+      "milliseconds": 1.241
+    },
+    {
+      "query": "항체",
+      "count": 2,
+      "top_ids": [
+        "18",
+        "17"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.978
+    },
+    {
+      "query": "antibody",
+      "count": 5,
+      "top_ids": [
+        "18",
+        "17",
+        "85",
+        "248",
+        "250"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 0.922
+    },
+    {
+      "query": "antibodies",
+      "count": 2,
+      "top_ids": [
+        "18",
+        "17"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.955
+    },
+    {
+      "query": "대식세포",
+      "count": 12,
+      "top_ids": [
+        "781",
+        "180",
+        "877",
+        "313",
+        "312"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.907
+    },
+    {
+      "query": "macrophage",
+      "count": 16,
+      "top_ids": [
+        "877",
+        "313",
+        "312",
+        "311",
+        "310"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 1.047
+    },
+    {
+      "query": "T 세포",
+      "count": 15,
+      "top_ids": [
+        "785",
+        "848",
+        "880",
+        "879",
+        "336"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 1.026
+    },
+    {
+      "query": "B 세포",
+      "count": 4,
+      "top_ids": [
+        "617",
+        "612",
+        "122",
+        "409"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.878
+    },
+    {
+      "query": "뉴런",
+      "count": 3,
+      "top_ids": [
+        "197",
+        "854",
+        "424"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.91
+    },
+    {
+      "query": "neuron",
+      "count": 5,
+      "top_ids": [
+        "197",
+        "424",
+        "854",
+        "65",
+        "855"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "synonym",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 0.954
+    },
+    {
+      "query": "뇌",
+      "count": 7,
+      "top_ids": [
+        "688",
+        "60",
+        "191",
+        "189",
+        "590"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.843
+    },
+    {
+      "query": "brain",
+      "count": 18,
+      "top_ids": [
+        "688",
+        "60",
+        "191",
+        "189",
+        "590"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 1.139
+    },
+    {
+      "query": "심장",
+      "count": 1,
+      "top_ids": [
+        "228"
+      ],
+      "match_types": [
+        "synonym"
+      ],
+      "milliseconds": 0.875
+    },
+    {
+      "query": "heart",
+      "count": 3,
+      "top_ids": [
+        "228",
+        "183",
+        "852"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 1.037
+    },
+    {
+      "query": "신장",
+      "count": 4,
+      "top_ids": [
+        "229",
+        "869",
+        "560",
+        "562"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.924
+    },
+    {
+      "query": "kidney",
+      "count": 9,
+      "top_ids": [
+        "229",
+        "869",
+        "560",
+        "562",
+        "556"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "synonym",
+        "synonym",
+        "exact"
+      ],
+      "milliseconds": 1.003
+    },
+    {
+      "query": "세균",
+      "count": 7,
+      "top_ids": [
+        "43",
+        "42",
+        "41",
+        "790",
+        "789"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.991
+    },
+    {
+      "query": "bacteria",
+      "count": 16,
+      "top_ids": [
+        "790",
+        "43",
+        "42",
+        "41",
+        "789"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 1.072
+    },
+    {
+      "query": "바이러스",
+      "count": 38,
+      "top_ids": [
+        "646",
+        "649",
+        "647",
+        "648",
+        "787"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.876
+    },
+    {
+      "query": "virus",
+      "count": 44,
+      "top_ids": [
+        "967",
+        "646",
+        "649",
+        "647",
+        "648"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 0.945
+    },
+    {
+      "query": "DNA",
+      "count": 30,
+      "top_ids": [
+        "126",
+        "125",
+        "124",
+        "123",
+        "649"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 1.063
+    },
+    {
+      "query": "RNA",
+      "count": 47,
+      "top_ids": [
+        "763",
+        "452",
+        "729",
+        "764",
+        "686"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 1.249
+    },
+    {
+      "query": "실험",
+      "count": 60,
+      "top_ids": [
+        "3",
+        "779",
+        "4",
+        "5",
+        "6"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.908
+    },
+    {
+      "query": "현미경",
+      "count": 6,
+      "top_ids": [
+        "830",
+        "828",
+        "86",
+        "163",
+        "503"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.821
+    },
+    {
+      "query": "microscope",
+      "count": 9,
+      "top_ids": [
+        "86",
+        "163",
+        "514",
+        "830",
+        "828"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.981
+    },
+    {
+      "query": "화살표",
+      "count": 35,
+      "top_ids": [
+        "598",
+        "34",
+        "33",
+        "32",
+        "31"
+      ],
+      "match_types": [
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym",
+        "synonym"
+      ],
+      "milliseconds": 0.914
+    },
+    {
+      "query": "mitochondria",
+      "count": 3,
+      "top_ids": [
+        "353",
+        "352",
+        "101"
+      ],
+      "match_types": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "milliseconds": 1.063
+    },
+    {
+      "query": "no-such-asset-zz123",
+      "count": 0,
+      "top_ids": [],
+      "match_types": [],
+      "milliseconds": 1.014
+    }
+  ]
+}

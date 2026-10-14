@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BioArt Browser</title><link rel="icon" href="/icon.png"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/editor.css"></head>
+<body>
+<aside class="sidebar">
+  <div class="brand"><img class="brand-icon" src="/icon.png" alt="BioArt 뉴런 아이콘"><div>BioArt<small>BROWSER</small></div></div>
+  <div class="nav-label">라이브러리</div><nav id="topics" aria-label="주제 탐색"></nav>
+  <div class="sidebar-bottom"><button id="statusButton" class="plain status-button"><span class="status-dot"></span><span>로컬 카탈로그<small id="catalogCount">불러오는 중</small></span><span>↗</span></button><p>NIH BioArt Source의 과학 그림<br>원본을 보존하는 로컬 작업 공간</p></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><div class="breadcrumb">라이브러리 <span>/</span> <strong id="breadcrumb">전체 그림</strong></div><div class="top-actions"><button id="editorButton" class="primary">도해 편집기 ↗</button><button id="studioButton" class="secondary">AI 제작실</button><span id="localState" class="local-indicator">● 오프라인 탐색 가능</span><button id="helpButton" class="icon-button" aria-label="사용 안내">?</button></div></header>
+<div class="search-area"><div class="search-line"><div class="search-box"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" placeholder="어떤 그림을 찾으세요?  폐, macrophage, 산소가 혈액으로 이동하는 과정…" aria-label="그림 검색" autocomplete="off"><button id="clearSearch" class="icon-button" aria-label="검색 지우기" hidden>×</button><kbd>⌘ K</kbd></div><select id="scope" aria-label="검색 범위"><option value="related">관련 구조까지</option><option value="direct">직접 일치만</option></select></div>
+<div class="suggestions"><span>이런 개념으로 시작해 보세요</span><button data-query="폐">폐와 폐포 <span>↗</span></button><button data-query="항체">항체 <span>↗</span></button><button data-query="뉴런">뉴런 <span>↗</span></button><button data-query="실험">실험 장비 <span>↗</span></button></div></div>
+<div class="content-row"><main class="library" id="library"><div class="library-heading"><div><div class="eyebrow" id="eyebrow">THE LOCAL COLLECTION</div><h1 id="heading">전체 그림 <span id="resultCount"></span></h1></div><div class="filters"><select id="format" aria-label="파일 형식"><option value="">모든 형식</option><option>SVG</option><option>PNG</option></select><select id="license" aria-label="라이선스"><option value="">모든 라이선스</option><option>Public Domain</option><option>CC-BY</option></select><button id="resetFilters" class="icon-button" title="필터 초기화" aria-label="필터 초기화">↺</button></div></div><div id="queryContext"></div><div id="results" aria-live="polite"></div><button id="loadMore" class="load-more" hidden>더 보기</button></main>
+<aside id="inspector" class="inspector" aria-label="그림 상세"><div class="inspector-empty"><span class="outline-art">✳</span><h2>그림을 가까이 살펴보세요</h2><p>그림을 선택하면 표현과 파일을 비교하고<br>원본 정보와 관련 구조를 볼 수 있습니다.</p><div class="empty-key"><kbd>↵</kbd> 상세 보기 <span>·</span> <kbd>Esc</kbd> 닫기</div></div></aside></div>
+<footer class="tray"><div class="tray-label"><strong>제작 트레이 <span id="trayCount">0</span></strong><small>필요한 그림을 모아두세요</small></div><div id="trayItems" class="tray-items"><span class="tray-placeholder">그림을 선택하고 + 버튼으로 추가하세요</span></div><div class="tray-actions"><button id="compareButton" class="secondary" disabled>비교</button><button id="editTrayButton" class="secondary">자유 편집</button><button id="sceneButton" class="secondary" disabled>대화로 그림 만들기</button><button id="exportButton" class="primary" disabled>파일 내보내기 <span>↗</span></button></div></footer>
+<section id="studio" class="studio" aria-label="도해 제작실" hidden></section>
+</div>
+<div id="toast" role="status" hidden></div>
+<dialog id="modal"><div class="modal-head"><h2 id="modalTitle"></h2><button id="modalClose" class="icon-button" aria-label="창 닫기">×</button></div><div id="modalBody"></div></dialog>
+<script type="module" src="/app.js"></script></body></html>
